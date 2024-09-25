@@ -1,0 +1,49 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "B:\\OneDrive\\Monetus\\Solutia\\Projetos\\Plugins Revit\\Solutia\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7ED2B6C1-0253-41E8-B1C5-2A9AC1FCE66C}|Solutia.csproj|b:\\onedrive\\monetus\\solutia\\projetos\\plugins revit\\solutia\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ED2B6C1-0253-41E8-B1C5-2A9AC1FCE66C}|Solutia.csproj|solutionrelative:main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Main.cs",
+              "DocumentMoniker": "B:\\OneDrive\\Monetus\\Solutia\\Projetos\\Plugins Revit\\Solutia\\Main.cs",
+              "RelativeDocumentMoniker": "Main.cs",
+              "ToolTip": "B:\\OneDrive\\Monetus\\Solutia\\Projetos\\Plugins Revit\\Solutia\\Main.cs",
+              "RelativeToolTip": "Main.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAEwDQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T11:04:25.58Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

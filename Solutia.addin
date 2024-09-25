@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<RevitAddIns>
+	<AddIn Type="Application">
+		<Name>Solutia</Name>
+		<Publisher>Solutia Digital</Publisher>
+		<Assembly>Solutia/Solutia.dll</Assembly>
+		<AddInId>4A251FFB-E01D-46D1-B9A7-562201EFBB02</AddInId>
+		<FullClassName>Solutia.Main</FullClassName>
+		<VendorId>Robson Perdigao</VendorId>
+		<VendorDescription>For more information, contact: https://github.com/robsonperdigao</VendorDescription>
+	</AddIn>
+</RevitAddIns>

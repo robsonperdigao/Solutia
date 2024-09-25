@@ -1,0 +1,6 @@
+B:\OneDrive\Monetus\Solutia\Projetos\Plugins Revit\Solutia\bin\Debug\Solutia.dll
+B:\OneDrive\Monetus\Solutia\Projetos\Plugins Revit\Solutia\bin\Debug\Solutia.pdb
+B:\OneDrive\Monetus\Solutia\Projetos\Plugins Revit\Solutia\obj\Debug\Solutia.csproj.AssemblyReference.cache
+B:\OneDrive\Monetus\Solutia\Projetos\Plugins Revit\Solutia\obj\Debug\Solutia.csproj.CoreCompileInputs.cache
+B:\OneDrive\Monetus\Solutia\Projetos\Plugins Revit\Solutia\obj\Debug\Solutia.dll
+B:\OneDrive\Monetus\Solutia\Projetos\Plugins Revit\Solutia\obj\Debug\Solutia.pdb
