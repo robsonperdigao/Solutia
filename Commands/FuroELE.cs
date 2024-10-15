@@ -8,7 +8,6 @@ using Autodesk.Revit.UI.Selection;
 using Autodesk.Revit.DB.Structure;
 using Autodesk.Revit.DB.IFC;
 
-
 namespace Solutia.Commands
 {
     [Transaction(TransactionMode.Manual)]
@@ -47,6 +46,16 @@ namespace Solutia.Commands
             // Coletar todas as tubulações no modelo principal
             FilteredElementCollector pipeElements = new FilteredElementCollector(doc)
                 .OfCategory(BuiltInCategory.OST_PipeCurves)
+                .WhereElementIsNotElementType();
+
+            // Coletar todos os eletrodutos no modelo principal
+            FilteredElementCollector conduitElements = new FilteredElementCollector(doc)
+                .OfCategory(BuiltInCategory.OST_Conduit)
+                .WhereElementIsNotElementType();
+
+            // Coletar todas as eletrocalhas no modelo principal
+            FilteredElementCollector cabletrayElements = new FilteredElementCollector(doc)
+                .OfCategory(BuiltInCategory.OST_CableTray)
                 .WhereElementIsNotElementType();
 
             // Lista para armazenar interferências detectadas

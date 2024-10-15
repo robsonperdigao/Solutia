@@ -7,7 +7,6 @@ using Autodesk.Revit.UI;
 using Autodesk.Revit.UI.Selection;
 using Autodesk.Revit.DB.Structure;
 
-
 namespace Solutia.Commands
 {
     [Transaction(TransactionMode.Manual)]
@@ -26,7 +25,6 @@ namespace Solutia.Commands
                 return Result.Failed;
             }
 
-            
             // Permitir que o usuário selecione um vínculo de Revit
             Reference r = uidoc.Selection.PickObject(ObjectType.Element, "Selecione um vínculo de Revit.");
             Element selectedElement = doc.GetElement(r);
@@ -111,7 +109,7 @@ namespace Solutia.Commands
                                     if (diameterParam != null)
                                     {
                                         // Converta o diâmetro de milímetros para metros e adicione 0,05 metros (5 cm)
-                                        double pipeDiameter = diameterParam.AsDouble() + (0.05 * 3.28163428722);
+                                        double pipeDiameter = diameterParam.AsDouble() + (0.05 * 3.2808398950);
 
                                         // Calcular a espessura do elemento estrutural
                                         double structuralThickness = structBB.Max.X - structBB.Min.X;

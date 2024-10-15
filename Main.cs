@@ -54,7 +54,7 @@ namespace Solutia
             pushButtonEle1.LargeImage = bitmapEle1;
 
             // Botão Furo ELE
-            PushButtonData buttonDataEle2 = new PushButtonData("FuroELE", "Furo ELE", assemblyPath, "Solutia.Commands.FuroELE");
+            PushButtonData buttonDataEle2 = new PushButtonData("FuroELE", "Furo ELE", assemblyPath, "Solutia.Commands.FuroTeste");
             PushButton pushButtonEle2 = ribbonPanelEle.AddItem(buttonDataEle2) as PushButton;
             pushButtonEle2.ToolTip = "Insere família de furo onde há interferências entre eletrodutos/conduítes e vigas";
             // Adicionando imagem ao botão

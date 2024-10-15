@@ -1,10 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "B:\\OneDrive\\Monetus\\Solutia\\Projetos\\Plugins Revit\\Solutia\\",
+  "WorkspaceRootPath": "C:\\Users\\robson.perdigao\\source\\repos\\robsonperdigao\\Solutia\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7ED2B6C1-0253-41E8-B1C5-2A9AC1FCE66C}|Solutia.csproj|b:\\onedrive\\monetus\\solutia\\projetos\\plugins revit\\solutia\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7ED2B6C1-0253-41E8-B1C5-2A9AC1FCE66C}|Solutia.csproj|solutionrelative:main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\robson.perdigao\\Source\\Repos\\robsonperdigao\\Solutia\\Commands\\VerificaFuro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Commands\\VerificaFuro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\robson.perdigao\\Source\\Repos\\robsonperdigao\\Solutia\\Commands\\FuroTeste.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Commands\\FuroTeste.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\robson.perdigao\\source\\repos\\robsonperdigao\\Solutia\\Main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,11 +22,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Bookmark",
@@ -30,13 +42,39 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FuroTeste.cs",
+              "DocumentMoniker": "C:\\Users\\robson.perdigao\\Source\\Repos\\robsonperdigao\\Solutia\\Commands\\FuroTeste.cs",
+              "RelativeDocumentMoniker": "Commands\\FuroTeste.cs",
+              "ToolTip": "C:\\Users\\robson.perdigao\\Source\\Repos\\robsonperdigao\\Solutia\\Commands\\FuroTeste.cs",
+              "RelativeToolTip": "Commands\\FuroTeste.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T15:06:31.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "VerificaFuro.cs",
+              "DocumentMoniker": "C:\\Users\\robson.perdigao\\Source\\Repos\\robsonperdigao\\Solutia\\Commands\\VerificaFuro.cs",
+              "RelativeDocumentMoniker": "Commands\\VerificaFuro.cs",
+              "ToolTip": "C:\\Users\\robson.perdigao\\Source\\Repos\\robsonperdigao\\Solutia\\Commands\\VerificaFuro.cs",
+              "RelativeToolTip": "Commands\\VerificaFuro.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T14:41:14.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Main.cs",
-              "DocumentMoniker": "B:\\OneDrive\\Monetus\\Solutia\\Projetos\\Plugins Revit\\Solutia\\Main.cs",
+              "DocumentMoniker": "C:\\Users\\robson.perdigao\\source\\repos\\robsonperdigao\\Solutia\\Main.cs",
               "RelativeDocumentMoniker": "Main.cs",
-              "ToolTip": "B:\\OneDrive\\Monetus\\Solutia\\Projetos\\Plugins Revit\\Solutia\\Main.cs",
+              "ToolTip": "C:\\Users\\robson.perdigao\\source\\repos\\robsonperdigao\\Solutia\\Main.cs",
               "RelativeToolTip": "Main.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAEwDQAAAAMAAAAAAAAAA==",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAADgAAAB/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-25T11:04:25.58Z",
               "EditorCaption": ""

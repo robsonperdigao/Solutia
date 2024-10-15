@@ -10,6 +10,7 @@ using Autodesk.Revit.DB.Plumbing;
 using Autodesk.Revit.DB.Structure;
 using Autodesk.Revit.UI;
 
+// Furo com coordenadas TXT
 namespace Solutia.Commands
 {
     [Transaction(TransactionMode.Manual)]
