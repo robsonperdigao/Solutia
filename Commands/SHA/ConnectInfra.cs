@@ -6,10 +6,10 @@ using Autodesk.Revit.DB.Plumbing;
 using System.Linq;
 using Autodesk.Revit.Attributes;
 
-namespace Solutia.Commands
+namespace Solutia.Commands.SHA
 {
     [Transaction(TransactionMode.Manual)]
-    public class ConnectTubHID : IExternalCommand
+    public class ConnectInfra : IExternalCommand
     {
         public Result Execute(ExternalCommandData commandData, ref string message, ElementSet elements)
         {
@@ -19,7 +19,7 @@ namespace Solutia.Commands
             View view = uidoc.ActiveView;
 
             // Obtém a lista de todas as tubulações visíveis na vista atual
-            List<Pipe> tubulacoes = TubulacoesVistaAtual(doc, view);
+            List<Pipe> tubulacoes = InfraVistaAtual(doc, view);
             double margem = 1.0; // Margem padrão de 1 unidade
 
             List<Element> conexoes = new List<Element>();
@@ -87,7 +87,7 @@ namespace Solutia.Commands
             return Result.Succeeded;
         }
 
-        private List<Pipe> TubulacoesVistaAtual(Document doc, View view)
+        private List<Pipe> InfraVistaAtual(Document doc, View view)
         {
             // Coleta todas as tubulações visíveis na vista atual
             FilteredElementCollector filtro = new FilteredElementCollector(doc, view.Id);

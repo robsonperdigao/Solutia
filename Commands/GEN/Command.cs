@@ -8,18 +8,18 @@ using Autodesk.Revit.UI;
 using Autodesk.Revit.Attributes;
 using System.Windows.Forms;
 
-namespace Solutia.Commands
+namespace Solutia.Commands.GEN
 {
     [Transaction(TransactionMode.Manual)]
-    public class AutoPrumELE : IExternalCommand
+    public class Command : IExternalCommand
     {
         public Result Execute(ExternalCommandData commandData, ref string message, ElementSet elements)
         {
-            MessageBox.Show("o botão AutoPrumELE está funcionando");
+            MessageBox.Show("Esse botão padrão está funcionando");
 
             return Result.Succeeded;
         }
     }
-    
+
 
 }

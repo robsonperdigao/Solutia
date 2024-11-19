@@ -8,7 +8,7 @@ using Autodesk.Revit.UI.Selection;
 using Autodesk.Revit.DB.Structure;
 using Autodesk.Revit.DB.IFC;
 
-namespace Solutia.Commands
+namespace Solutia.Commands.SHA
 {
     [Transaction(TransactionMode.Manual)]
     public class FuroELE : IExternalCommand

@@ -7,7 +7,7 @@ using System.Linq;
 using Autodesk.Revit.Attributes;
 using Autodesk.Revit.DB.Mechanical;
 
-namespace Solutia.Commands
+namespace Solutia.Commands.PLU
 {
     [Transaction(TransactionMode.Manual)]
     public class TeTub : IExternalCommand

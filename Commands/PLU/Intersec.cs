@@ -5,7 +5,7 @@ using Autodesk.Revit.UI;
 using Autodesk.Revit.UI.Selection;
 using Autodesk.Revit.Attributes;
 
-namespace Solutia.Commands
+namespace Solutia.Commands.PLU
 {
     [Transaction(TransactionMode.Manual)]
     public class Intersec : IExternalCommand

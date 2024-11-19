@@ -8,7 +8,7 @@ using Autodesk.Revit.DB;
 using Autodesk.Revit.DB.Plumbing;
 using Autodesk.Revit.UI;
 
-namespace Solutia.Commands
+namespace Solutia.Commands.PLU
 {
     [Transaction(TransactionMode.Manual)]
     public class HIDTub : IExternalCommand

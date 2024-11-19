@@ -8,7 +8,7 @@ using Autodesk.Revit.UI.Selection;
 using System.Collections.Generic;
 using System;
 
-namespace Solutia.Commands
+namespace Solutia.Commands.ELE
 {
     [Transaction(TransactionMode.ReadOnly)]
     public class ColetaDadosFiac : IExternalCommand

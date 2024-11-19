@@ -5,7 +5,7 @@ using Autodesk.Revit.UI.Selection;
 using System;
 using System.Collections.Generic;
 
-namespace Solutia.Commands
+namespace Solutia.Commands.SHA
 {
     [Transaction(TransactionMode.Manual)]
     public class FuroTeste : IExternalCommand

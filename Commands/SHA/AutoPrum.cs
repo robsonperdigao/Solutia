@@ -8,18 +8,18 @@ using Autodesk.Revit.UI;
 using Autodesk.Revit.Attributes;
 using System.Windows.Forms;
 
-namespace Solutia.Commands
+namespace Solutia.Commands.SHA
 {
     [Transaction(TransactionMode.Manual)]
-    public class Lib : IExternalCommand
+    public class AutoPrum : IExternalCommand
     {
         public Result Execute(ExternalCommandData commandData, ref string message, ElementSet elements)
         {
-            MessageBox.Show("O botão Lib está funcionando");
+            MessageBox.Show("o botão AutoPrum está funcionando");
 
             return Result.Succeeded;
         }
     }
-
+    
 
 }

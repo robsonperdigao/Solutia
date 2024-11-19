@@ -7,7 +7,7 @@ using Autodesk.Revit.UI;
 using Autodesk.Revit.UI.Selection;
 using Autodesk.Revit.DB.Structure;
 
-namespace Solutia.Commands
+namespace Solutia.Commands.SHA
 {
     [Transaction(TransactionMode.Manual)]
     public class AutoFuroOrig : IExternalCommand

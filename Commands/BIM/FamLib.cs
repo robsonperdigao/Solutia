@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Solutia.Commands
+namespace Solutia.Commands.BIM
 {
     internal class FamLib
     {

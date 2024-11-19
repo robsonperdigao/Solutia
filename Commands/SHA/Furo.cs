@@ -11,7 +11,7 @@ using Autodesk.Revit.DB.Structure;
 using Autodesk.Revit.UI;
 
 // Furo com coordenadas TXT
-namespace Solutia.Commands
+namespace Solutia.Commands.SHA
 {
     [Transaction(TransactionMode.Manual)]
     public class Furo : IExternalCommand

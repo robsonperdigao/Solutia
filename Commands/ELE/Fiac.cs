@@ -9,7 +9,7 @@ using Autodesk.Revit.UI.Selection;
 using Autodesk.Revit.DB.Electrical;
 using Autodesk.Revit.Attributes;
 
-namespace Solutia.Commands
+namespace Solutia.Commands.ELE
 {
     [Autodesk.Revit.Attributes.Transaction(Autodesk.Revit.Attributes.TransactionMode.ReadOnly)]
     // Classe do comando Fiac
