@@ -84,11 +84,20 @@
     <Compile Include="Commands\SHA\FuroELE.cs" />
     <Compile Include="Commands\SHA\Furo.cs" />
     <Compile Include="Commands\SHA\VerificaFuro.cs" />
+    <Compile Include="Forms\CategoryFamilyExportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CategoryFamilyExportForm.Designer.cs">
+      <DependentUpon>CategoryFamilyExportForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Helpers\ButtonHelper.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Forms\CategoryFamilyExportForm.resx">
+      <DependentUpon>CategoryFamilyExportForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Resources\buttomFuroL.ico" />
     <EmbeddedResource Include="Resources\buttonBIM.png" />
     <EmbeddedResource Include="Resources\buttonBIML.ico" />
@@ -121,7 +130,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Commands\HVAC\" />
-    <Folder Include="Forms\" />
     <Folder Include="Models\" />
     <Folder Include="ViewModels\" />
   </ItemGroup>

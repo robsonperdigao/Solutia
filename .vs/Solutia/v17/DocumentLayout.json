@@ -1,22 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "B:\\OneDrive\\Monetus\\Solutia\\Projetos\\Plugins Revit\\Solutia\\",
+  "WorkspaceRootPath": "C:\\Users\\robson.perdigao\\source\\repos\\robsonperdigao\\Solutia\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7ED2B6C1-0253-41E8-B1C5-2A9AC1FCE66C}|Solutia.csproj|b:\\onedrive\\monetus\\solutia\\projetos\\plugins revit\\solutia\\commands\\gen\\exportifc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7ED2B6C1-0253-41E8-B1C5-2A9AC1FCE66C}|Solutia.csproj|solutionrelative:commands\\gen\\exportifc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7ED2B6C1-0253-41E8-B1C5-2A9AC1FCE66C}|Solutia.csproj|c:\\users\\robson.perdigao\\source\\repos\\robsonperdigao\\solutia\\forms\\categoryfamilyexportform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ED2B6C1-0253-41E8-B1C5-2A9AC1FCE66C}|Solutia.csproj|solutionrelative:forms\\categoryfamilyexportform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7ED2B6C1-0253-41E8-B1C5-2A9AC1FCE66C}|Solutia.csproj|B:\\OneDrive\\Monetus\\Solutia\\Projetos\\Plugins Revit\\Solutia\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7ED2B6C1-0253-41E8-B1C5-2A9AC1FCE66C}|Solutia.csproj|solutionrelative:main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7ED2B6C1-0253-41E8-B1C5-2A9AC1FCE66C}|Solutia.csproj|c:\\users\\robson.perdigao\\source\\repos\\robsonperdigao\\solutia\\forms\\categoryfamilyexportform.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{7ED2B6C1-0253-41E8-B1C5-2A9AC1FCE66C}|Solutia.csproj|solutionrelative:forms\\categoryfamilyexportform.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7ED2B6C1-0253-41E8-B1C5-2A9AC1FCE66C}|Solutia.csproj|b:\\onedrive\\monetus\\solutia\\projetos\\plugins revit\\solutia\\commands\\gen\\exportrvt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7ED2B6C1-0253-41E8-B1C5-2A9AC1FCE66C}|Solutia.csproj|solutionrelative:commands\\gen\\exportrvt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7ED2B6C1-0253-41E8-B1C5-2A9AC1FCE66C}|Solutia.csproj|c:\\users\\robson.perdigao\\source\\repos\\robsonperdigao\\solutia\\forms\\categoryfamilyexportform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7ED2B6C1-0253-41E8-B1C5-2A9AC1FCE66C}|Solutia.csproj|solutionrelative:forms\\categoryfamilyexportform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7ED2B6C1-0253-41E8-B1C5-2A9AC1FCE66C}|Solutia.csproj|b:\\onedrive\\monetus\\solutia\\projetos\\plugins revit\\solutia\\commands\\gen\\exportfamilies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7ED2B6C1-0253-41E8-B1C5-2A9AC1FCE66C}|Solutia.csproj|c:\\users\\robson.perdigao\\source\\repos\\robsonperdigao\\solutia\\forms\\categoryfamilyexportform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ED2B6C1-0253-41E8-B1C5-2A9AC1FCE66C}|Solutia.csproj|solutionrelative:forms\\categoryfamilyexportform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ED2B6C1-0253-41E8-B1C5-2A9AC1FCE66C}|Solutia.csproj|c:\\users\\robson.perdigao\\source\\repos\\robsonperdigao\\solutia\\commands\\gen\\exportfamilies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7ED2B6C1-0253-41E8-B1C5-2A9AC1FCE66C}|Solutia.csproj|solutionrelative:commands\\gen\\exportfamilies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ED2B6C1-0253-41E8-B1C5-2A9AC1FCE66C}|Solutia.csproj|C:\\Users\\robson.perdigao\\source\\repos\\robsonperdigao\\Solutia\\Commands\\GEN\\ExportIFC.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ED2B6C1-0253-41E8-B1C5-2A9AC1FCE66C}|Solutia.csproj|solutionrelative:Commands\\GEN\\ExportIFC.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ED2B6C1-0253-41E8-B1C5-2A9AC1FCE66C}|Solutia.csproj|C:\\Users\\robson.perdigao\\source\\repos\\robsonperdigao\\Solutia\\Main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ED2B6C1-0253-41E8-B1C5-2A9AC1FCE66C}|Solutia.csproj|solutionrelative:Main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ED2B6C1-0253-41E8-B1C5-2A9AC1FCE66C}|Solutia.csproj|C:\\Users\\robson.perdigao\\source\\repos\\robsonperdigao\\Solutia\\Commands\\GEN\\ExportRVT.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ED2B6C1-0253-41E8-B1C5-2A9AC1FCE66C}|Solutia.csproj|solutionrelative:Commands\\GEN\\ExportRVT.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,60 +42,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ExportIFC.cs",
-              "DocumentMoniker": "B:\\OneDrive\\Monetus\\Solutia\\Projetos\\Plugins Revit\\Solutia\\Commands\\GEN\\ExportIFC.cs",
-              "RelativeDocumentMoniker": "Commands\\GEN\\ExportIFC.cs",
-              "ToolTip": "B:\\OneDrive\\Monetus\\Solutia\\Projetos\\Plugins Revit\\Solutia\\Commands\\GEN\\ExportIFC.cs",
-              "RelativeToolTip": "Commands\\GEN\\ExportIFC.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAgwB4AAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T02:10:38.925Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Main.cs",
-              "DocumentMoniker": "B:\\OneDrive\\Monetus\\Solutia\\Projetos\\Plugins Revit\\Solutia\\Main.cs",
-              "RelativeDocumentMoniker": "Main.cs",
-              "ToolTip": "B:\\OneDrive\\Monetus\\Solutia\\Projetos\\Plugins Revit\\Solutia\\Main.cs",
-              "RelativeToolTip": "Main.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAgwDsAAACiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T11:04:25.58Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ExportRVT.cs",
-              "DocumentMoniker": "B:\\OneDrive\\Monetus\\Solutia\\Projetos\\Plugins Revit\\Solutia\\Commands\\GEN\\ExportRVT.cs",
-              "RelativeDocumentMoniker": "Commands\\GEN\\ExportRVT.cs",
-              "ToolTip": "B:\\OneDrive\\Monetus\\Solutia\\Projetos\\Plugins Revit\\Solutia\\Commands\\GEN\\ExportRVT.cs",
-              "RelativeToolTip": "Commands\\GEN\\ExportRVT.cs",
-              "ViewState": "AgIAAJ8AAAAAAAAAAAAgwKQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T19:58:04.063Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ExportFamilies.cs",
-              "DocumentMoniker": "B:\\OneDrive\\Monetus\\Solutia\\Projetos\\Plugins Revit\\Solutia\\Commands\\GEN\\ExportFamilies.cs",
-              "RelativeDocumentMoniker": "Commands\\GEN\\ExportFamilies.cs",
-              "ToolTip": "B:\\OneDrive\\Monetus\\Solutia\\Projetos\\Plugins Revit\\Solutia\\Commands\\GEN\\ExportFamilies.cs",
-              "RelativeToolTip": "Commands\\GEN\\ExportFamilies.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAgwFAAAABjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T19:57:36.174Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
@@ -95,6 +59,105 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CategoryFamilyExportForm.resx",
+              "DocumentMoniker": "C:\\Users\\robson.perdigao\\Source\\Repos\\robsonperdigao\\Solutia\\Forms\\CategoryFamilyExportForm.resx",
+              "RelativeDocumentMoniker": "Forms\\CategoryFamilyExportForm.resx",
+              "ToolTip": "C:\\Users\\robson.perdigao\\Source\\Repos\\robsonperdigao\\Solutia\\Forms\\CategoryFamilyExportForm.resx",
+              "RelativeToolTip": "Forms\\CategoryFamilyExportForm.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-11-19T18:28:16.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CategoryFamilyExportForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\robson.perdigao\\Source\\Repos\\robsonperdigao\\Solutia\\Forms\\CategoryFamilyExportForm.Designer.cs",
+              "RelativeDocumentMoniker": "Forms\\CategoryFamilyExportForm.Designer.cs",
+              "ToolTip": "C:\\Users\\robson.perdigao\\Source\\Repos\\robsonperdigao\\Solutia\\Forms\\CategoryFamilyExportForm.Designer.cs",
+              "RelativeToolTip": "Forms\\CategoryFamilyExportForm.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T18:20:36.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CategoryFamilyExportForm.cs",
+              "DocumentMoniker": "C:\\Users\\robson.perdigao\\source\\repos\\robsonperdigao\\Solutia\\forms\\CategoryFamilyExportForm.cs",
+              "RelativeDocumentMoniker": "forms\\CategoryFamilyExportForm.cs",
+              "ToolTip": "C:\\Users\\robson.perdigao\\source\\repos\\robsonperdigao\\Solutia\\forms\\CategoryFamilyExportForm.cs",
+              "RelativeToolTip": "forms\\CategoryFamilyExportForm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA4AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T18:20:34.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CategoryFamilyExportForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\robson.perdigao\\source\\repos\\robsonperdigao\\Solutia\\forms\\CategoryFamilyExportForm.cs",
+              "RelativeDocumentMoniker": "forms\\CategoryFamilyExportForm.cs",
+              "ToolTip": "C:\\Users\\robson.perdigao\\source\\repos\\robsonperdigao\\Solutia\\forms\\CategoryFamilyExportForm.cs [Design]",
+              "RelativeToolTip": "forms\\CategoryFamilyExportForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T18:19:42.713Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ExportIFC.cs",
+              "DocumentMoniker": "C:\\Users\\robson.perdigao\\source\\repos\\robsonperdigao\\Solutia\\Commands\\GEN\\ExportIFC.cs",
+              "RelativeDocumentMoniker": "Commands\\GEN\\ExportIFC.cs",
+              "ToolTip": "C:\\Users\\robson.perdigao\\source\\repos\\robsonperdigao\\Solutia\\Commands\\GEN\\ExportIFC.cs",
+              "RelativeToolTip": "Commands\\GEN\\ExportIFC.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T02:10:38.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Main.cs",
+              "DocumentMoniker": "C:\\Users\\robson.perdigao\\source\\repos\\robsonperdigao\\Solutia\\Main.cs",
+              "RelativeDocumentMoniker": "Main.cs",
+              "ToolTip": "C:\\Users\\robson.perdigao\\source\\repos\\robsonperdigao\\Solutia\\Main.cs",
+              "RelativeToolTip": "Main.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAgwDsAAACiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T11:04:25.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ExportRVT.cs",
+              "DocumentMoniker": "C:\\Users\\robson.perdigao\\source\\repos\\robsonperdigao\\Solutia\\Commands\\GEN\\ExportRVT.cs",
+              "RelativeDocumentMoniker": "Commands\\GEN\\ExportRVT.cs",
+              "ToolTip": "C:\\Users\\robson.perdigao\\source\\repos\\robsonperdigao\\Solutia\\Commands\\GEN\\ExportRVT.cs",
+              "RelativeToolTip": "Commands\\GEN\\ExportRVT.cs",
+              "ViewState": "AgIAAJ8AAAAAAAAAAAAgwKQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T19:58:04.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ExportFamilies.cs",
+              "DocumentMoniker": "C:\\Users\\robson.perdigao\\source\\repos\\robsonperdigao\\Solutia\\Commands\\GEN\\ExportFamilies.cs",
+              "RelativeDocumentMoniker": "Commands\\GEN\\ExportFamilies.cs",
+              "ToolTip": "C:\\Users\\robson.perdigao\\source\\repos\\robsonperdigao\\Solutia\\Commands\\GEN\\ExportFamilies.cs",
+              "RelativeToolTip": "Commands\\GEN\\ExportFamilies.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T19:57:36.174Z",
+              "EditorCaption": ""
             }
           ]
         }
