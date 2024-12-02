@@ -1,37 +1,61 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\robson.perdigao\\source\\repos\\robsonperdigao\\Solutia\\",
+  "WorkspaceRootPath": "B:\\OneDrive\\Monetus\\Solutia\\Projetos\\Plugins Revit\\Solutia\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7ED2B6C1-0253-41E8-B1C5-2A9AC1FCE66C}|Solutia.csproj|c:\\users\\robson.perdigao\\source\\repos\\robsonperdigao\\solutia\\forms\\categoryfamilyexportform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7ED2B6C1-0253-41E8-B1C5-2A9AC1FCE66C}|Solutia.csproj|solutionrelative:forms\\categoryfamilyexportform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7ED2B6C1-0253-41E8-B1C5-2A9AC1FCE66C}|Solutia.csproj|b:\\onedrive\\monetus\\solutia\\projetos\\plugins revit\\solutia\\commands\\plu\\tetub2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ED2B6C1-0253-41E8-B1C5-2A9AC1FCE66C}|Solutia.csproj|solutionrelative:commands\\plu\\tetub2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7ED2B6C1-0253-41E8-B1C5-2A9AC1FCE66C}|Solutia.csproj|c:\\users\\robson.perdigao\\source\\repos\\robsonperdigao\\solutia\\forms\\categoryfamilyexportform.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
-      "RelativeMoniker": "D:0:0:{7ED2B6C1-0253-41E8-B1C5-2A9AC1FCE66C}|Solutia.csproj|solutionrelative:forms\\categoryfamilyexportform.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7ED2B6C1-0253-41E8-B1C5-2A9AC1FCE66C}|Solutia.csproj|c:\\users\\robson.perdigao\\source\\repos\\robsonperdigao\\solutia\\forms\\categoryfamilyexportform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7ED2B6C1-0253-41E8-B1C5-2A9AC1FCE66C}|Solutia.csproj|solutionrelative:forms\\categoryfamilyexportform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7ED2B6C1-0253-41E8-B1C5-2A9AC1FCE66C}|Solutia.csproj|c:\\users\\robson.perdigao\\source\\repos\\robsonperdigao\\solutia\\forms\\categoryfamilyexportform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7ED2B6C1-0253-41E8-B1C5-2A9AC1FCE66C}|Solutia.csproj|solutionrelative:forms\\categoryfamilyexportform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7ED2B6C1-0253-41E8-B1C5-2A9AC1FCE66C}|Solutia.csproj|c:\\users\\robson.perdigao\\source\\repos\\robsonperdigao\\solutia\\commands\\gen\\exportfamilies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7ED2B6C1-0253-41E8-B1C5-2A9AC1FCE66C}|Solutia.csproj|solutionrelative:commands\\gen\\exportfamilies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7ED2B6C1-0253-41E8-B1C5-2A9AC1FCE66C}|Solutia.csproj|C:\\Users\\robson.perdigao\\source\\repos\\robsonperdigao\\Solutia\\Commands\\GEN\\ExportIFC.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7ED2B6C1-0253-41E8-B1C5-2A9AC1FCE66C}|Solutia.csproj|solutionrelative:Commands\\GEN\\ExportIFC.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7ED2B6C1-0253-41E8-B1C5-2A9AC1FCE66C}|Solutia.csproj|C:\\Users\\robson.perdigao\\source\\repos\\robsonperdigao\\Solutia\\Main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7ED2B6C1-0253-41E8-B1C5-2A9AC1FCE66C}|Solutia.csproj|B:\\OneDrive\\Monetus\\Solutia\\Projetos\\Plugins Revit\\Solutia\\Main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7ED2B6C1-0253-41E8-B1C5-2A9AC1FCE66C}|Solutia.csproj|solutionrelative:Main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7ED2B6C1-0253-41E8-B1C5-2A9AC1FCE66C}|Solutia.csproj|C:\\Users\\robson.perdigao\\source\\repos\\robsonperdigao\\Solutia\\Commands\\GEN\\ExportRVT.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7ED2B6C1-0253-41E8-B1C5-2A9AC1FCE66C}|Solutia.csproj|b:\\onedrive\\monetus\\solutia\\projetos\\plugins revit\\solutia\\commands\\sha\\intersecttub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ED2B6C1-0253-41E8-B1C5-2A9AC1FCE66C}|Solutia.csproj|solutionrelative:commands\\sha\\intersecttub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ED2B6C1-0253-41E8-B1C5-2A9AC1FCE66C}|Solutia.csproj|B:\\OneDrive\\Monetus\\Solutia\\Projetos\\Plugins Revit\\Solutia\\commands\\plu\\connecttubhid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ED2B6C1-0253-41E8-B1C5-2A9AC1FCE66C}|Solutia.csproj|solutionrelative:commands\\plu\\connecttubhid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ED2B6C1-0253-41E8-B1C5-2A9AC1FCE66C}|Solutia.csproj|b:\\onedrive\\monetus\\solutia\\projetos\\plugins revit\\solutia\\commands\\plu\\insertte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ED2B6C1-0253-41E8-B1C5-2A9AC1FCE66C}|Solutia.csproj|solutionrelative:commands\\plu\\insertte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ED2B6C1-0253-41E8-B1C5-2A9AC1FCE66C}|Solutia.csproj|B:\\OneDrive\\Monetus\\Solutia\\Projetos\\Plugins Revit\\Solutia\\commands\\sha\\furoele.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ED2B6C1-0253-41E8-B1C5-2A9AC1FCE66C}|Solutia.csproj|solutionrelative:commands\\sha\\furoele.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ED2B6C1-0253-41E8-B1C5-2A9AC1FCE66C}|Solutia.csproj|b:\\onedrive\\monetus\\solutia\\projetos\\plugins revit\\solutia\\commands\\plu\\hidtub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ED2B6C1-0253-41E8-B1C5-2A9AC1FCE66C}|Solutia.csproj|solutionrelative:commands\\plu\\hidtub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ED2B6C1-0253-41E8-B1C5-2A9AC1FCE66C}|Solutia.csproj|b:\\onedrive\\monetus\\solutia\\projetos\\plugins revit\\solutia\\commands\\sha\\autofuroorig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ED2B6C1-0253-41E8-B1C5-2A9AC1FCE66C}|Solutia.csproj|solutionrelative:commands\\sha\\autofuroorig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ED2B6C1-0253-41E8-B1C5-2A9AC1FCE66C}|Solutia.csproj|b:\\onedrive\\monetus\\solutia\\projetos\\plugins revit\\solutia\\commands\\sha\\interferences.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ED2B6C1-0253-41E8-B1C5-2A9AC1FCE66C}|Solutia.csproj|solutionrelative:commands\\sha\\interferences.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ED2B6C1-0253-41E8-B1C5-2A9AC1FCE66C}|Solutia.csproj|b:\\onedrive\\monetus\\solutia\\projetos\\plugins revit\\solutia\\commands\\sha\\autofuro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ED2B6C1-0253-41E8-B1C5-2A9AC1FCE66C}|Solutia.csproj|solutionrelative:commands\\sha\\autofuro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ED2B6C1-0253-41E8-B1C5-2A9AC1FCE66C}|Solutia.csproj|b:\\onedrive\\monetus\\solutia\\projetos\\plugins revit\\solutia\\commands\\sha\\furoteste.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ED2B6C1-0253-41E8-B1C5-2A9AC1FCE66C}|Solutia.csproj|solutionrelative:commands\\sha\\furoteste.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ED2B6C1-0253-41E8-B1C5-2A9AC1FCE66C}|Solutia.csproj|B:\\OneDrive\\Monetus\\Solutia\\Projetos\\Plugins Revit\\Solutia\\commands\\gen\\exportfamilies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ED2B6C1-0253-41E8-B1C5-2A9AC1FCE66C}|Solutia.csproj|solutionrelative:commands\\gen\\exportfamilies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ED2B6C1-0253-41E8-B1C5-2A9AC1FCE66C}|Solutia.csproj|B:\\OneDrive\\Monetus\\Solutia\\Projetos\\Plugins Revit\\Solutia\\Commands\\GEN\\ExportIFC.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ED2B6C1-0253-41E8-B1C5-2A9AC1FCE66C}|Solutia.csproj|solutionrelative:Commands\\GEN\\ExportIFC.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ED2B6C1-0253-41E8-B1C5-2A9AC1FCE66C}|Solutia.csproj|B:\\OneDrive\\Monetus\\Solutia\\Projetos\\Plugins Revit\\Solutia\\Commands\\GEN\\ExportRVT.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7ED2B6C1-0253-41E8-B1C5-2A9AC1FCE66C}|Solutia.csproj|solutionrelative:Commands\\GEN\\ExportRVT.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -41,8 +65,8 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "DockedWidth": 216,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,61 +86,88 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CategoryFamilyExportForm.resx",
-              "DocumentMoniker": "C:\\Users\\robson.perdigao\\Source\\Repos\\robsonperdigao\\Solutia\\Forms\\CategoryFamilyExportForm.resx",
-              "RelativeDocumentMoniker": "Forms\\CategoryFamilyExportForm.resx",
-              "ToolTip": "C:\\Users\\robson.perdigao\\Source\\Repos\\robsonperdigao\\Solutia\\Forms\\CategoryFamilyExportForm.resx",
-              "RelativeToolTip": "Forms\\CategoryFamilyExportForm.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2024-11-19T18:28:16.055Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CategoryFamilyExportForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\robson.perdigao\\Source\\Repos\\robsonperdigao\\Solutia\\Forms\\CategoryFamilyExportForm.Designer.cs",
-              "RelativeDocumentMoniker": "Forms\\CategoryFamilyExportForm.Designer.cs",
-              "ToolTip": "C:\\Users\\robson.perdigao\\Source\\Repos\\robsonperdigao\\Solutia\\Forms\\CategoryFamilyExportForm.Designer.cs",
-              "RelativeToolTip": "Forms\\CategoryFamilyExportForm.Designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA7AAAA",
+              "Title": "TeTub2.cs",
+              "DocumentMoniker": "B:\\OneDrive\\Monetus\\Solutia\\Projetos\\Plugins Revit\\Solutia\\Commands\\PLU\\TeTub2.cs",
+              "RelativeDocumentMoniker": "Commands\\PLU\\TeTub2.cs",
+              "ToolTip": "B:\\OneDrive\\Monetus\\Solutia\\Projetos\\Plugins Revit\\Solutia\\Commands\\PLU\\TeTub2.cs",
+              "RelativeToolTip": "Commands\\PLU\\TeTub2.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAmwFQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T18:20:36.913Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CategoryFamilyExportForm.cs",
-              "DocumentMoniker": "C:\\Users\\robson.perdigao\\source\\repos\\robsonperdigao\\Solutia\\forms\\CategoryFamilyExportForm.cs",
-              "RelativeDocumentMoniker": "forms\\CategoryFamilyExportForm.cs",
-              "ToolTip": "C:\\Users\\robson.perdigao\\source\\repos\\robsonperdigao\\Solutia\\forms\\CategoryFamilyExportForm.cs",
-              "RelativeToolTip": "forms\\CategoryFamilyExportForm.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA4AAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T18:20:34.379Z",
+              "WhenOpened": "2024-12-02T15:00:06.954Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CategoryFamilyExportForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\robson.perdigao\\source\\repos\\robsonperdigao\\Solutia\\forms\\CategoryFamilyExportForm.cs",
-              "RelativeDocumentMoniker": "forms\\CategoryFamilyExportForm.cs",
-              "ToolTip": "C:\\Users\\robson.perdigao\\source\\repos\\robsonperdigao\\Solutia\\forms\\CategoryFamilyExportForm.cs [Design]",
-              "RelativeToolTip": "forms\\CategoryFamilyExportForm.cs [Design]",
+              "Title": "IntersectTub.cs",
+              "DocumentMoniker": "B:\\OneDrive\\Monetus\\Solutia\\Projetos\\Plugins Revit\\Solutia\\Commands\\SHA\\IntersectTub.cs",
+              "RelativeDocumentMoniker": "Commands\\SHA\\IntersectTub.cs",
+              "ToolTip": "B:\\OneDrive\\Monetus\\Solutia\\Projetos\\Plugins Revit\\Solutia\\Commands\\SHA\\IntersectTub.cs",
+              "RelativeToolTip": "Commands\\SHA\\IntersectTub.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAFEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T18:19:42.713Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-12-02T14:33:08.075Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
+              "Title": "Main.cs",
+              "DocumentMoniker": "B:\\OneDrive\\Monetus\\Solutia\\Projetos\\Plugins Revit\\Solutia\\Main.cs",
+              "RelativeDocumentMoniker": "Main.cs",
+              "ToolTip": "B:\\OneDrive\\Monetus\\Solutia\\Projetos\\Plugins Revit\\Solutia\\Main.cs",
+              "RelativeToolTip": "Main.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAUwDcAAAByAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T11:04:25.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "InsertTe.cs",
+              "DocumentMoniker": "B:\\OneDrive\\Monetus\\Solutia\\Projetos\\Plugins Revit\\Solutia\\Commands\\PLU\\InsertTe.cs",
+              "RelativeDocumentMoniker": "Commands\\PLU\\InsertTe.cs",
+              "ToolTip": "B:\\OneDrive\\Monetus\\Solutia\\Projetos\\Plugins Revit\\Solutia\\Commands\\PLU\\InsertTe.cs",
+              "RelativeToolTip": "Commands\\PLU\\InsertTe.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAowIAAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T13:50:50.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HIDTub.cs",
+              "DocumentMoniker": "B:\\OneDrive\\Monetus\\Solutia\\Projetos\\Plugins Revit\\Solutia\\Commands\\PLU\\HIDTub.cs",
+              "RelativeDocumentMoniker": "Commands\\PLU\\HIDTub.cs",
+              "ToolTip": "B:\\OneDrive\\Monetus\\Solutia\\Projetos\\Plugins Revit\\Solutia\\Commands\\PLU\\HIDTub.cs",
+              "RelativeToolTip": "Commands\\PLU\\HIDTub.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAiwBoAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T23:48:38.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ExportFamilies.cs",
+              "DocumentMoniker": "B:\\OneDrive\\Monetus\\Solutia\\Projetos\\Plugins Revit\\Solutia\\Commands\\GEN\\ExportFamilies.cs",
+              "RelativeDocumentMoniker": "Commands\\GEN\\ExportFamilies.cs",
+              "ToolTip": "B:\\OneDrive\\Monetus\\Solutia\\Projetos\\Plugins Revit\\Solutia\\Commands\\GEN\\ExportFamilies.cs",
+              "RelativeToolTip": "Commands\\GEN\\ExportFamilies.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAACAAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T19:57:36.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "ExportIFC.cs",
-              "DocumentMoniker": "C:\\Users\\robson.perdigao\\source\\repos\\robsonperdigao\\Solutia\\Commands\\GEN\\ExportIFC.cs",
+              "DocumentMoniker": "B:\\OneDrive\\Monetus\\Solutia\\Projetos\\Plugins Revit\\Solutia\\Commands\\GEN\\ExportIFC.cs",
               "RelativeDocumentMoniker": "Commands\\GEN\\ExportIFC.cs",
-              "ToolTip": "C:\\Users\\robson.perdigao\\source\\repos\\robsonperdigao\\Solutia\\Commands\\GEN\\ExportIFC.cs",
+              "ToolTip": "B:\\OneDrive\\Monetus\\Solutia\\Projetos\\Plugins Revit\\Solutia\\Commands\\GEN\\ExportIFC.cs",
               "RelativeToolTip": "Commands\\GEN\\ExportIFC.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -124,39 +175,161 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Main.cs",
-              "DocumentMoniker": "C:\\Users\\robson.perdigao\\source\\repos\\robsonperdigao\\Solutia\\Main.cs",
-              "RelativeDocumentMoniker": "Main.cs",
-              "ToolTip": "C:\\Users\\robson.perdigao\\source\\repos\\robsonperdigao\\Solutia\\Main.cs",
-              "RelativeToolTip": "Main.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAgwDsAAACiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T11:04:25.58Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "ExportRVT.cs",
-              "DocumentMoniker": "C:\\Users\\robson.perdigao\\source\\repos\\robsonperdigao\\Solutia\\Commands\\GEN\\ExportRVT.cs",
+              "DocumentMoniker": "B:\\OneDrive\\Monetus\\Solutia\\Projetos\\Plugins Revit\\Solutia\\Commands\\GEN\\ExportRVT.cs",
               "RelativeDocumentMoniker": "Commands\\GEN\\ExportRVT.cs",
-              "ToolTip": "C:\\Users\\robson.perdigao\\source\\repos\\robsonperdigao\\Solutia\\Commands\\GEN\\ExportRVT.cs",
+              "ToolTip": "B:\\OneDrive\\Monetus\\Solutia\\Projetos\\Plugins Revit\\Solutia\\Commands\\GEN\\ExportRVT.cs",
               "RelativeToolTip": "Commands\\GEN\\ExportRVT.cs",
               "ViewState": "AgIAAJ8AAAAAAAAAAAAgwKQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-18T19:58:04.063Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 184,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AutoFuroOrig.cs",
+              "DocumentMoniker": "B:\\OneDrive\\Monetus\\Solutia\\Projetos\\Plugins Revit\\Solutia\\Commands\\SHA\\AutoFuroOrig.cs",
+              "RelativeDocumentMoniker": "Commands\\SHA\\AutoFuroOrig.cs",
+              "ToolTip": "B:\\OneDrive\\Monetus\\Solutia\\Projetos\\Plugins Revit\\Solutia\\Commands\\SHA\\AutoFuroOrig.cs",
+              "RelativeToolTip": "Commands\\SHA\\AutoFuroOrig.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAgwHkAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T20:37:47.66Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ExportFamilies.cs",
-              "DocumentMoniker": "C:\\Users\\robson.perdigao\\source\\repos\\robsonperdigao\\Solutia\\Commands\\GEN\\ExportFamilies.cs",
-              "RelativeDocumentMoniker": "Commands\\GEN\\ExportFamilies.cs",
-              "ToolTip": "C:\\Users\\robson.perdigao\\source\\repos\\robsonperdigao\\Solutia\\Commands\\GEN\\ExportFamilies.cs",
-              "RelativeToolTip": "Commands\\GEN\\ExportFamilies.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 5,
+              "Title": "FuroELE.cs",
+              "DocumentMoniker": "B:\\OneDrive\\Monetus\\Solutia\\Projetos\\Plugins Revit\\Solutia\\Commands\\SHA\\FuroELE.cs",
+              "RelativeDocumentMoniker": "Commands\\SHA\\FuroELE.cs",
+              "ToolTip": "B:\\OneDrive\\Monetus\\Solutia\\Projetos\\Plugins Revit\\Solutia\\Commands\\SHA\\FuroELE.cs",
+              "RelativeToolTip": "Commands\\SHA\\FuroELE.cs",
+              "ViewState": "AgIAAH8AAAAAAAAAAAAgwIkAAAB9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T19:57:36.174Z",
+              "WhenOpened": "2024-11-29T21:06:27.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ConnectTubHID.cs",
+              "DocumentMoniker": "B:\\OneDrive\\Monetus\\Solutia\\Projetos\\Plugins Revit\\Solutia\\Commands\\PLU\\ConnectTubHID.cs",
+              "RelativeDocumentMoniker": "Commands\\PLU\\ConnectTubHID.cs",
+              "ToolTip": "B:\\OneDrive\\Monetus\\Solutia\\Projetos\\Plugins Revit\\Solutia\\Commands\\PLU\\ConnectTubHID.cs",
+              "RelativeToolTip": "Commands\\PLU\\ConnectTubHID.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAmwGQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T23:49:18.313Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "0fd461eb-e1e8-4ff3-aefa-be89df926900",
+        "Display": 0,
+        "X": 68,
+        "Y": 231,
+        "Width": 1561,
+        "Height": 793,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Interferences.cs",
+              "DocumentMoniker": "B:\\OneDrive\\Monetus\\Solutia\\Projetos\\Plugins Revit\\Solutia\\Commands\\SHA\\Interferences.cs",
+              "RelativeDocumentMoniker": "Commands\\SHA\\Interferences.cs",
+              "ToolTip": "B:\\OneDrive\\Monetus\\Solutia\\Projetos\\Plugins Revit\\Solutia\\Commands\\SHA\\Interferences.cs",
+              "RelativeToolTip": "Commands\\SHA\\Interferences.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T20:37:53.435Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "501357a2-778f-41ae-9cab-605168b8e6e4",
+        "Display": 0,
+        "X": 935,
+        "Y": 87,
+        "Width": 990,
+        "Height": 793,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AutoFuro.cs",
+              "DocumentMoniker": "B:\\OneDrive\\Monetus\\Solutia\\Projetos\\Plugins Revit\\Solutia\\Commands\\SHA\\AutoFuro.cs",
+              "RelativeDocumentMoniker": "Commands\\SHA\\AutoFuro.cs",
+              "ToolTip": "B:\\OneDrive\\Monetus\\Solutia\\Projetos\\Plugins Revit\\Solutia\\Commands\\SHA\\AutoFuro.cs",
+              "RelativeToolTip": "Commands\\SHA\\AutoFuro.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAgwKEAAACTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T20:37:48.555Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "8da30891-01f1-4e61-a6ac-162de5eae6fc",
+        "Display": 0,
+        "X": 955,
+        "Y": 0,
+        "Width": 970,
+        "Height": 1037,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FuroTeste.cs",
+              "DocumentMoniker": "B:\\OneDrive\\Monetus\\Solutia\\Projetos\\Plugins Revit\\Solutia\\Commands\\SHA\\FuroTeste.cs",
+              "RelativeDocumentMoniker": "Commands\\SHA\\FuroTeste.cs",
+              "ToolTip": "B:\\OneDrive\\Monetus\\Solutia\\Projetos\\Plugins Revit\\Solutia\\Commands\\SHA\\FuroTeste.cs",
+              "RelativeToolTip": "Commands\\SHA\\FuroTeste.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwCsAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T20:37:52.532Z",
               "EditorCaption": ""
             }
           ]

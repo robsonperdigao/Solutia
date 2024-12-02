@@ -64,8 +64,10 @@
   <ItemGroup>
     <Compile Include="Commands\BIM\FamLib.cs" />
     <Compile Include="Commands\GEN\ExportIFC.cs" />
+    <Compile Include="Commands\PLU\InsertTe.cs" />
+    <Compile Include="Commands\PLU\TeTub2.cs" />
     <Compile Include="Commands\SHA\FuroTeste.cs" />
-    <Compile Include="Commands\SHA\AutoFuro - Copy.cs" />
+    <Compile Include="Commands\SHA\AutoFuroOrig.cs" />
     <Compile Include="Commands\GEN\AutoSave.cs" />
     <Compile Include="Commands\GEN\Command.cs" />
     <Compile Include="Commands\SHA\CADtoBIM.cs" />
@@ -83,7 +85,8 @@
     <Compile Include="Commands\ELE\Fiac.cs" />
     <Compile Include="Commands\SHA\FuroELE.cs" />
     <Compile Include="Commands\SHA\Furo.cs" />
-    <Compile Include="Commands\SHA\VerificaFuro.cs" />
+    <Compile Include="Commands\SHA\Interferences.cs" />
+    <Compile Include="Commands\SHA\IntersectTub.cs" />
     <Compile Include="Forms\CategoryFamilyExportForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -135,9 +138,25 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>Copy "$(TargetDir)Solutia.dll" "$(ProgramData)\Autodesk\Revit\Addins\2024\Solutia"
-Copy "$(ProjectDir)*.addin" "$(ProgramData)\Autodesk\Revit\Addins\2024"
+    <PostBuildEvent>:: Criar pasta Solutia para Revit 2020, se não existir
+if not exist "$(ProgramData)\Autodesk\Revit\Addins\2020\Solutia" mkdir "$(ProgramData)\Autodesk\Revit\Addins\2020\Solutia"
+Copy "$(TargetDir)Solutia.dll" "$(ProgramData)\Autodesk\Revit\Addins\2020\Solutia" /Y
+Copy "$(ProjectDir)*.addin" "$(ProgramData)\Autodesk\Revit\Addins\2020" /Y
 
+:: Criar pasta Solutia para Revit 2021, se não existir
+if not exist "$(ProgramData)\Autodesk\Revit\Addins\2021\Solutia" mkdir "$(ProgramData)\Autodesk\Revit\Addins\2021\Solutia"
+Copy "$(TargetDir)Solutia.dll" "$(ProgramData)\Autodesk\Revit\Addins\2021\Solutia" /Y
+Copy "$(ProjectDir)*.addin" "$(ProgramData)\Autodesk\Revit\Addins\2021" /Y
+
+:: Criar pasta Solutia para Revit 2023, se não existir
+if not exist "$(ProgramData)\Autodesk\Revit\Addins\2023\Solutia" mkdir "$(ProgramData)\Autodesk\Revit\Addins\2023\Solutia"
+Copy "$(TargetDir)Solutia.dll" "$(ProgramData)\Autodesk\Revit\Addins\2023\Solutia" /Y
+Copy "$(ProjectDir)*.addin" "$(ProgramData)\Autodesk\Revit\Addins\2023" /Y
+
+:: Criar pasta Solutia para Revit 2024, se não existir
+if not exist "$(ProgramData)\Autodesk\Revit\Addins\2024\Solutia" mkdir "$(ProgramData)\Autodesk\Revit\Addins\2024\Solutia"
+Copy "$(TargetDir)Solutia.dll" "$(ProgramData)\Autodesk\Revit\Addins\2024\Solutia" /Y
+Copy "$(ProjectDir)*.addin" "$(ProgramData)\Autodesk\Revit\Addins\2024" /Y
 </PostBuildEvent>
   </PropertyGroup>
 </Project>

@@ -111,12 +111,12 @@ namespace Solutia.Commands.SHA
                                         // Converta o diâmetro de milímetros para metros e adicione 0,05 metros (5 cm)
                                         double pipeDiameter = diameterParam.AsDouble() + (0.05 * 3.2808398950);
 
-                                        // Calcular a espessura do elemento estrutural
+                                        // Calcular a espessura do elemento estrutural - diferente do AutoFuroOrig
                                         double structBBX = structBB.Max.X - structBB.Min.X;
                                         double structBBY = structBB.Max.Y - structBB.Min.Y;
                                         double structuralThickness = Math.Min(structBBX, structBBY);
 
-
+                                        // Avalia furos existentes - diferente do AutoFuroOrig
                                         IEnumerable<FamilyInstance> existingHoles = new FilteredElementCollector(doc)
                                             .OfCategory(BuiltInCategory.OST_GenericModel)
                                             .WhereElementIsNotElementType()
@@ -134,10 +134,10 @@ namespace Solutia.Commands.SHA
                                         {
                                             // Criar uma instância da família na coordenada de interseção na vista atual (vista de planta)
                                             FamilyInstance instance = doc.Create.NewFamilyInstance(
-                                            intersectionPoint,
-                                            familySymbol,
-                                            level,// Definir o nível da vista atual
-                                            StructuralType.NonStructural);
+                                                intersectionPoint, 
+                                                familySymbol,
+                                                level,// Definir o nível da vista atual
+                                                StructuralType.NonStructural);
 
                                             // Definir os parâmetros da família usando valores em metros
                                             instance.LookupParameter("Largura Viga")?.Set(structuralThickness);
@@ -159,7 +159,7 @@ namespace Solutia.Commands.SHA
                                             }
                                             else { instance.get_Parameter(BuiltInParameter.INSTANCE_FREE_HOST_OFFSET_PARAM)?.Set(0); }
 
-                                            // Verificar se o bounding box da tubulação atende ao critério para rotação
+                                            // Verificar se o bounding box da tubulação atende ao critério para rotação - diferente do AutoFuroOrig
                                             if ((pipeBB.Max.X - pipeBB.Min.X) > (pipeBB.Max.Y - pipeBB.Min.Y))
                                             {
                                                 Line rotationAxis = Line.CreateBound(intersectionPoint, intersectionPoint + XYZ.BasisZ);

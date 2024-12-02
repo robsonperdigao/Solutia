@@ -41,7 +41,7 @@ namespace Solutia.Commands.SHA
                 }
 
                 // Chamar a função de verificação de interferências
-                List<string> interferenceResults = VerificaFuro.CheckInterferences(doc, structuralElements, conduitElements);
+                List<string> interferenceResults = Interferences.StructuralIntersecPoint(doc, structuralElements, conduitElements);
 
                 // Exibir o resultado da verificação
                 if (interferenceResults.Count > 0)

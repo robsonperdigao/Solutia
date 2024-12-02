@@ -40,7 +40,8 @@ namespace Solutia
             string panelNameBim = "BIM";
             RibbonPanel ribbonPanelBim = app.CreateRibbonPanel(tabName, panelNameBim);
 
-
+            string panelNameTest = "Teste";
+            RibbonPanel ribbonPanelTest = app.CreateRibbonPanel(tabName, panelNameTest);
 
 
             //ButtonHelper.CreateButtonWithIcon(ribbonPanelEle, "ConduitCAD", "ConduitCAD", "Cria eletrodutos/conduítes horizontais a partir de um desenho CAD", "Solutia.Commands.SHA.CADtoBIM", "Solutia.Resources.buttonConduitL.ico");
@@ -52,15 +53,19 @@ namespace Solutia
             ButtonHelper.CreateButtonWithIcon(ribbonPanelHid, "TubCAD", "TubCAD", "Cria tubulações horizontais a partir de um desenho CAD", "Solutia.Commands.PLU.HIDTub", "Solutia.Resources.buttonTubL.ico");
             ButtonHelper.CreateButtonWithIcon(ribbonPanelHid, "FuroHID", "Furo HID", "Insere família de furo onde há interferências entre tubulações e vigas", "Solutia.Commands.SHA.Furo", "Solutia.Resources.buttomFuroL.ico");
             ButtonHelper.CreateButtonWithIcon(ribbonPanelHid, "ConnectTubHID", "Criar Conexões", "Cria conexões", "Solutia.Commands.PLU.ConnectTubHID", "Solutia.Resources.buttonHidL.ico");
-            ButtonHelper.CreateButtonWithIcon(ribbonPanelHid, "Tê", "Criar Tê", "Tê", "Solutia.Commands.PLU.TeTub", "Solutia.Resources.buttonHidL.ico");
-            ButtonHelper.CreateButtonWithIcon(ribbonPanelHid, "Interseções", "Interseções", "Interseções", "Solutia.Commands.PLU.Intersec", "Solutia.Resources.buttonHidL.ico");
+            ButtonHelper.CreateButtonWithIcon(ribbonPanelHid, "Tê", "Criar Tê", "Tê", "Solutia.Commands.PLU.TeTub2", "Solutia.Resources.buttonHidL.ico");
+            ButtonHelper.CreateButtonWithIcon(ribbonPanelHid, "Interseções", "Interseções", "Interseções", "Solutia.Commands.SHA.IntersectTub", "Solutia.Resources.buttonHidL.ico");
+            ButtonHelper.CreateButtonWithIcon(ribbonPanelHid, "TÊÊÊÊ", "TÊÊÊÊ", "TÊÊÊÊ", "Solutia.Commands.PLU.InsertTe", "Solutia.Resources.buttonHidL.ico");
 
             ButtonHelper.CreateButtonWithIcon(ribbonPanelBim, "Furação", "Furação", "Analisa interferências com elementos estruturais e insere a furação", "Solutia.Commands.SHA.AutoFuro", "Solutia.Resources.buttomFuroL.ico");
             ButtonHelper.CreateButtonWithIcon(ribbonPanelBim, "Exporta RVT", "Exporta RVT", "Apaga todas as vistas e solicita ao usuário para salvar o arquivo", "Solutia.Commands.GEN.ExportRVT", "Solutia.Resources.buttonSaveL.ico");
             ButtonHelper.CreateButtonWithIcon(ribbonPanelBim, "Exporta IFC", "Exporta IFC", "Apaga todas as vistas e exporta IFC", "Solutia.Commands.GEN.ExportIFC", "Solutia.Resources.buttonSaveL.ico");
             ButtonHelper.CreateButtonWithIcon(ribbonPanelBim, "Exporta Famílias", "Exporta Famílias", "Exporta todas as famílias do modelo/template para a pasta selecionada pelo usuário", "Solutia.Commands.GEN.ExportFamilies", "Solutia.Resources.buttonSaveL.ico");
 
-
+            ButtonHelper.CreateButtonWithIcon(ribbonPanelTest, "FuroTeste", "FuroTeste", "FuroTeste", "Solutia.Commands.SHA.FuroTeste", "Solutia.Resources.buttomFuroL.ico");
+            ButtonHelper.CreateButtonWithIcon(ribbonPanelTest, "FuroELE", "FuroELE", "FuroELE", "Solutia.Commands.SHA.FuroELE", "Solutia.Resources.buttomFuroL.ico");
+            ButtonHelper.CreateButtonWithIcon(ribbonPanelTest, "AutoFuro", "AutoFuro", "AutoFuro", "Solutia.Commands.SHA.AutoFuro", "Solutia.Resources.buttomFuroL.ico");
+            ButtonHelper.CreateButtonWithIcon(ribbonPanelTest, "AutoFuroOrig", "AutoFuroOrig", "AutoFuroOrig", "Solutia.Commands.SHA.AutoFuroOrig", "Solutia.Resources.buttomFuroL.ico");
 
             // Botão Rotinas Dynamo
             //PushButtonData buttonDataBim1 = new PushButtonData("Rotinas", "Rotinas \nDynamo", assemblyPath, "Solutia.Commands.Command");

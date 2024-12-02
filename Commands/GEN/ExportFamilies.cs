@@ -2,12 +2,11 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Autodesk.Revit.DB;
 using Autodesk.Revit.UI;
-using System.Windows.Forms;
 using Autodesk.Revit.Attributes;
+using System.Windows.Forms;
+using Solutia.Forms;
 
 namespace Solutia.Commands.GEN
 {
@@ -15,34 +14,49 @@ namespace Solutia.Commands.GEN
     internal class ExportFamilies : IExternalCommand
     {
         public Result Execute(
-            ExternalCommandData commandData,
-            ref string message,
-            ElementSet elements)
+            ExternalCommandData commandData, ref string message, ElementSet elements)
         {
             // Obtém o documento atual
             Document doc = commandData.Application.ActiveUIDocument.Document;
 
-            // Cria um diálogo para seleção de pasta
-            using (FolderBrowserDialog folderDialog = new FolderBrowserDialog())
+            // Exibe o formulário para selecionar categorias e a pasta
+            using (CategoryFamilyExportForm form = new CategoryFamilyExportForm(doc))
             {
-                folderDialog.Description = "Selecione a pasta para salvar as famílias";
-                folderDialog.ShowNewFolderButton = true;
-
-                if (folderDialog.ShowDialog() == DialogResult.OK)
+                if (form.ShowDialog() == DialogResult.OK)
                 {
-                    string targetFolder = folderDialog.SelectedPath;
+                    // Obtém as categorias selecionadas
+                    List<BuiltInCategory> selectedCategories = form.SelectedCategories;
 
-                    // Filtrar todas as famílias no projeto
+                    if (selectedCategories == null || !selectedCategories.Any())
+                    {
+                        TaskDialog.Show("Exportação de Famílias", "Nenhuma categoria foi selecionada.");
+                        return Result.Cancelled;
+                    }
+
+                    // Obtém o caminho da pasta selecionada no formulário
+                    string targetFolder = form.SelectedFolderPath;
+
+                    if (string.IsNullOrEmpty(targetFolder) || !Directory.Exists(targetFolder))
+                    {
+                        TaskDialog.Show("Erro", "Caminho de pasta inválido ou não selecionado.");
+                        return Result.Failed;
+                    }
+
+                    // Filtra as famílias no projeto pelas categorias selecionadas
                     FilteredElementCollector collector = new FilteredElementCollector(doc)
                         .OfClass(typeof(Family));
 
                     int savedCount = 0;
-                    List<string> errorLog = new List<string>(); // Lista para armazenar mensagens de erro
+                    List<string> errorLog = new List<string>();
 
                     foreach (Element element in collector)
                     {
                         Family family = element as Family;
-                        if (family == null || !family.IsEditable) continue;
+
+                        // Verifica se a família é válida e pertence às categorias selecionadas
+                        if (family == null || !family.IsEditable ||
+                            !selectedCategories.Contains((BuiltInCategory)family.FamilyCategory.Id.Value))
+                            continue;
 
                         string familyName = family.Name;
                         string filePath = Path.Combine(targetFolder, $"{familyName}.rfa");
@@ -62,34 +76,32 @@ namespace Solutia.Commands.GEN
                         }
                         catch (Exception ex)
                         {
-                            // Armazena a mensagem de erro na lista de log
+                            // Armazena mensagens de erro
                             errorLog.Add($"Falha ao salvar a família '{familyName}': {ex.Message}");
                         }
                     }
 
-                    // Salvar o arquivo de log caso existam erros
-                    if (errorLog.Count > 0)
+                    // Salva o log na pasta selecionada
+                    if (errorLog.Any())
                     {
-                        string logFilePath = Path.Combine(targetFolder, "Log.txt");
+                        string logFilePath = Path.Combine(targetFolder, "ExportLog.txt");
                         File.WriteAllLines(logFilePath, errorLog);
                     }
 
-                    // Mostra mensagem final
+                    // Mensagem de resultado
                     string resultMessage = $"{savedCount} famílias salvas com sucesso.\n";
-                    if (errorLog.Count > 0)
+                    if (errorLog.Any())
                     {
-                        resultMessage += $"{errorLog.Count} erros encontrados. Consulte o arquivo 'Log.txt' na pasta:\n{targetFolder}";
+                        resultMessage += $"{errorLog.Count} erros encontrados. Consulte o arquivo 'ExportLog.txt' na pasta:\n{targetFolder}";
                     }
                     TaskDialog.Show("Resultado", resultMessage);
 
                     return Result.Succeeded;
                 }
-                else
-                {
-                    message = "Operação cancelada pelo usuário.";
-                    return Result.Cancelled;
-                }
             }
+
+            message = "Operação cancelada pelo usuário.";
+            return Result.Cancelled;
         }
     }
 }

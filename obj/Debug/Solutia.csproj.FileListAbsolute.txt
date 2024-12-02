@@ -4,3 +4,5 @@ B:\OneDrive\Monetus\Solutia\Projetos\Plugins Revit\Solutia\obj\Debug\Solutia.csp
 B:\OneDrive\Monetus\Solutia\Projetos\Plugins Revit\Solutia\obj\Debug\Solutia.csproj.CoreCompileInputs.cache
 B:\OneDrive\Monetus\Solutia\Projetos\Plugins Revit\Solutia\obj\Debug\Solutia.dll
 B:\OneDrive\Monetus\Solutia\Projetos\Plugins Revit\Solutia\obj\Debug\Solutia.pdb
+B:\OneDrive\Monetus\Solutia\Projetos\Plugins Revit\Solutia\obj\Debug\Solutia.Forms.CategoryFamilyExportForm.resources
+B:\OneDrive\Monetus\Solutia\Projetos\Plugins Revit\Solutia\obj\Debug\Solutia.csproj.GenerateResource.cache

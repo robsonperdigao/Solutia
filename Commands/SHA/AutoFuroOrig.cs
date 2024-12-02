@@ -47,11 +47,11 @@ namespace Solutia.Commands.SHA
 
             // Coletar elementos estruturais visíveis na vista ativa
             FilteredElementCollector structuralElements = new FilteredElementCollector(linkDoc, activeView.Id)
-                .OfCategory(BuiltInCategory.OST_StructuralFraming).WhereElementIsNotElementType();
+                .OfCategory(BuiltInCategory.OST_StructuralFraming).WhereElementIsNotElementType(); //*
 
             // Coletar todas as tubulações visíveis na vista ativa
             FilteredElementCollector pipeElements = new FilteredElementCollector(doc, activeView.Id)
-                .OfCategory(BuiltInCategory.OST_PipeCurves).WhereElementIsNotElementType();
+                .OfCategory(BuiltInCategory.OST_PipeCurves).WhereElementIsNotElementType(); //*
 
             // Lista para armazenar interferências detectadas
             List<string> interferenceResults = new List<string>();
@@ -111,11 +111,15 @@ namespace Solutia.Commands.SHA
                                         // Converta o diâmetro de milímetros para metros e adicione 0,05 metros (5 cm)
                                         double pipeDiameter = diameterParam.AsDouble() + (0.05 * 3.2808398950);
 
-                                        // Calcular a espessura do elemento estrutural
-                                        double structuralThickness = structBB.Max.X - structBB.Min.X;
+                                        // Calcular a espessura do elemento estrutural - Diferente do AutoFuro
+                                        double structuralThickness = structBB.Max.X - structBB.Min.X; 
 
                                         // Criar uma instância da família na coordenada de interseção
-                                        FamilyInstance instance = doc.Create.NewFamilyInstance(intersectionPoint, familySymbol, level, StructuralType.NonStructural);
+                                        FamilyInstance instance = doc.Create.NewFamilyInstance(
+                                            intersectionPoint, 
+                                            familySymbol, 
+                                            level, 
+                                            StructuralType.NonStructural);
                                         
                                         // Definir os parâmetros da família usando valores em metros
                                         instance.LookupParameter("Largura Viga")?.Set(structuralThickness);

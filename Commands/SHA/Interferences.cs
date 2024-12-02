@@ -7,9 +7,9 @@ using Autodesk.Revit.DB.Structure;
 
 namespace Solutia.Commands.SHA
 {
-    public class VerificaFuro
+    public class Interferences
     {
-        public static List<string> CheckInterferences(
+        public static List<string> StructuralIntersecPoint(
             Document doc,
             IEnumerable<Element> structuralElements,
             IEnumerable<Element> targetElements,
@@ -71,7 +71,7 @@ namespace Solutia.Commands.SHA
                                     double structuralThickness = Math.Min(structBB.Max.X - structBB.Min.X, structBB.Max.Y - structBB.Min.Y);
 
                                     // Verifica se já existe um furo no ponto
-                                    if (!HoleExistsAtPoint(doc, intersectionPoint, familyName))
+                                    if (!HoleExist(doc, intersectionPoint, familyName))
                                     {
                                         FamilyInstance instance = doc.Create.NewFamilyInstance(intersectionPoint, familySymbol, StructuralType.NonStructural);
                                         instance.LookupParameter("Largura Viga")?.Set(structuralThickness);
@@ -103,7 +103,7 @@ namespace Solutia.Commands.SHA
         }
 
         // Função para verificar se já existe um furo no ponto
-        private static bool HoleExistsAtPoint(Document doc, XYZ point, string familyName)
+        private static bool HoleExist(Document doc, XYZ point, string familyName)
         {
             IEnumerable<FamilyInstance> existingHoles = new FilteredElementCollector(doc)
                 .OfCategory(BuiltInCategory.OST_GenericModel)
