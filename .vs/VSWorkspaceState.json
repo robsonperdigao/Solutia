@@ -1,8 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Commands\\GEN"
+    "\\Commands",
+    "\\Commands\\GEN",
+    "\\Commands\\PLU",
+    "\\Commands\\SHA",
+    "\\Helpers"
   ],
-  "SelectedNode": "\\Solutia.sln",
+  "SelectedNode": "\\Helpers\\FileHelper.cs",
   "PreviewInSolutionExplorer": false
 }

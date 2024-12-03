@@ -7,6 +7,7 @@ using Autodesk.Revit.Attributes;
 using Autodesk.Revit.DB;
 using Autodesk.Revit.DB.Plumbing;
 using Autodesk.Revit.UI;
+using Solutia.Helpers
 
 namespace Solutia.Commands.PLU
 {
@@ -18,6 +19,11 @@ namespace Solutia.Commands.PLU
             UIDocument uidoc = commandData.Application.ActiveUIDocument;
             Document doc = uidoc.Document;
 
+            try
+            {
+                var segmentosTubos = FileHelper.ProcessarArquivoTubulação();
+
+            }
             OpenFileDialog selecionaArquivo = new OpenFileDialog
             {
                 Filter = "Text Files (*.txt)|*.txt",
